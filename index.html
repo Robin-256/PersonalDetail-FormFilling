@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+</head>
+<body>
+    <div class="rob">
+    <form action="post">
+        <div class="rob1">
+            <h2>Personal Details:</h2>
+            </div>
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter username">
+        </div>
+        <div>
+            <h4>Gender :</h>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <h4>Skills :</h4>
+            <input type="checkbox" id="webdevelopment" name="skill" value="webdevelopment">
+            <label for="webdevelopment">WebDevelopment</label>
+            <input type="checkbox" id="acting" name="skill" value="acting">
+            <label for="acting">Acting</label>
+            <input type="checkbox" id="dancing" name="skill" value="dancing">
+            <label for="dancing">Dancing</label>
+            <input type="checkbox" id="singing" name="skill" value="singing">
+            <label for="singing">Singing</label>
+        </div>
+        <br>
+        <div>
+            <label for="comment"></label>
+            <textarea name="comment" id="comment" rows="5" cols="50" placeholder="Comment Here...."></textarea>
+        </div>
+        <div>
+            <h4>Favourite Language :</h4>
+            <select name="fruit">
+                <option value="none">None</option>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+                <option value="Html">Html</option>
+                <option value="CSS">CSS</option>
+                <option value="Java Script">Java Script</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    </div>
+</body>
+</html>
