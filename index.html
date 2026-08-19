@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="style.css">
 <body>
     <div class="rob">
-    <form action="post">
+    <form action="#" method="POST">
         <div class="rob1">
             <h1>Personal Details:</h1>
             </div>
@@ -28,13 +28,13 @@
         <br>
         <div>
             <h4>Skills :</h4>
-            <input type="checkbox" id="webdevelopment" name="skill" value="webdevelopment">
+            <input type="checkbox" id="webdevelopment" name="skills[]" value="webdevelopment">
             <label for="webdevelopment">WebDevelopment</label>
-            <input type="checkbox" id="acting" name="skill" value="acting">
+            <input type="checkbox" id="acting" name="skills[]" value="acting">
             <label for="acting">Acting</label>
-            <input type="checkbox" id="dancing" name="skill" value="dancing">
+            <input type="checkbox" id="dancing" name="skills[]" value="dancing">
             <label for="dancing">Dancing</label>
-            <input type="checkbox" id="singing" name="skill" value="singing">
+            <input type="checkbox" id="singing" name="skills[]" value="singing">
             <label for="singing">Singing</label>
         </div>
         <br>
@@ -47,7 +47,7 @@
         <br>
         <div>
             <h4>Favourite Language :</h4>
-            <select name="fruit">
+            <select name="language">
                 <option value="none">None</option>
                 <option value="C">C</option>
                 <option value="C++">C++</option>
@@ -64,7 +64,6 @@
             <input type="submit" value="Submit">
         </div>
     </form>
-    </div>
     </div>
     <script src="script.js"></script>
 </body>
